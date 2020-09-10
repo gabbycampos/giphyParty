@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Giphy Party</title>
+  <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<h1>GIPHY PARTY</h1>
+
+<form id="form">
+  <label for="giphy-search"></label>
+  <input id="giphyInput" type="text" name="giphy" placeholder="Enter a search term">
+  <button class="searchBtn" type="click">Search Giphy!</button>
+  <button class="removeBtn" type="click">Remove images</button>
+</form>
+
+<div id="results"></div>
+  
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="https://unpkg.com/axios/dist/axios.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
